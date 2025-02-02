@@ -1,0 +1,27 @@
+{
+    "name": "coder-manjeet/laravel-contact-form",
+    "description": "A simple and customizable Laravel package to handle contact forms. This package allows you to easily manage contact form submissions, send emails, and store inquiries in the database.",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "CoderManjeet\\LaravelContactForm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "coder-manjeet",
+            "email": "codermanjeet@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CoderManjeet\\LaravelContactForm\\ContactFormServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
